@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+body{
+    background-color: rgb(41, 41, 44);
+    /* text-align: left; */
+}
+header{
+    box-sizing: border-box;
+    border-bottom: thin solid black;
+    /* box-shadow: 0 0 10px; */
+    width: 100%;
+    margin: auto;
+    padding: 0 5em;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(41, 41, 44);
+  
+
+}
+#image{
+    width: 55%;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-right: -15vh;
+}
+ 
+#how{
+    box-sizing: content-box;
+    /* border: thick solid white; */
+    display: flex;
+    padding: 15px;
+    background-color: rgb(86, 86, 196);
+    /* align-items: center; */
+}
+header div img{
+    width: 50%;
+}
+ nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+   
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+
+}
+#text{
+    margin-top: 70px;
+}
+.giant{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 700;
+}
+#span{
+    text-decoration: underline;
+    font-weight: 500;
+}
+.text2{
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+#text3{
+    color: aliceblue;
+    font-size: 1.7em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+.text4{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    word-spacing: 7px;
+    font-weight: 600;
+}
+#div2{
+    margin-left: 25%;
+    
+}
+#span2{
+    color: rgb(199, 189, 53);
+    font-size: 1em;
+    font-weight: 600;
+}
+#span3{
+    color: rgb(199, 189, 53);
+    font-size: 0.7em;
+    font-weight: 600;
+}
+#text5{
+    color: white;
+    font-size: 1.5em;
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    /* text-align:  */
+}
